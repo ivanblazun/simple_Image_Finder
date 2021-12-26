@@ -15,10 +15,6 @@ function getImage(){
     ${searchValue.value}/&client_id=${myKey}`)
    
     .then(data=>printImages(data.results))
-    
-    // httpReq.getOne(`https://api.unsplash.com/photos/random/?client_id=${myKey}`)
-  
-    // .then(data=>printImage(data.urls.regular))
 
 }
 
